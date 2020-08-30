@@ -2,6 +2,9 @@
 // Remember to change all instances of ClassName to be whatever the name of the class is.
 #include "StdAfx.h"
 #include "ClassName.h"
+// You must include CrySchematyc and CryCore to be able to expose your component to the editor.
+#include <CrySchematyc/Env/Elements/EnvComponent.h>
+#include <CryCore/StaticInstanceList.h>
 
 namespace
 {
