@@ -1,6 +1,7 @@
 #pragma once
 
-// include the header files you want to use here.
+// include the header files you want to use here. The InputComponent header is here so it will build without issues, change to what you need.
+#include <DefaultComponents/Input/InputComponent.h>
 
 ////////////////////////////////////////////////////////
 // This is a template that has the bare minimum for anything
